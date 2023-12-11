@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE16D7352B2703DE0052F7E2 /* FlashBuzziOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16D7342B2703DE0052F7E2 /* FlashBuzziOSApp.swift */; };
+		DE16D7372B2703DE0052F7E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16D7362B2703DE0052F7E2 /* ContentView.swift */; };
+		DE16D7392B2703E00052F7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE16D7382B2703E00052F7E2 /* Assets.xcassets */; };
+		DE16D73C2B2703E00052F7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE16D73B2B2703E00052F7E2 /* Preview Assets.xcassets */; };
+		DE16D7462B2703E00052F7E2 /* FlashBuzziOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16D7452B2703E00052F7E2 /* FlashBuzziOSTests.swift */; };
+		DE16D7502B2703E00052F7E2 /* FlashBuzziOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16D74F2B2703E00052F7E2 /* FlashBuzziOSUITests.swift */; };
+		DE16D7522B2703E00052F7E2 /* FlashBuzziOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16D7512B2703E00052F7E2 /* FlashBuzziOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE16D7422B2703E00052F7E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE16D7292B2703DE0052F7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE16D7302B2703DE0052F7E2;
+			remoteInfo = FlashBuzziOS;
+		};
+		DE16D74C2B2703E00052F7E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE16D7292B2703DE0052F7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE16D7302B2703DE0052F7E2;
+			remoteInfo = FlashBuzziOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE16D7312B2703DE0052F7E2 /* FlashBuzziOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashBuzziOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D7342B2703DE0052F7E2 /* FlashBuzziOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBuzziOSApp.swift; sourceTree = "<group>"; };
+		DE16D7362B2703DE0052F7E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE16D7382B2703E00052F7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE16D73B2B2703E00052F7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE16D7412B2703E00052F7E2 /* FlashBuzziOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashBuzziOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D7452B2703E00052F7E2 /* FlashBuzziOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBuzziOSTests.swift; sourceTree = "<group>"; };
+		DE16D74B2B2703E00052F7E2 /* FlashBuzziOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashBuzziOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE16D74F2B2703E00052F7E2 /* FlashBuzziOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBuzziOSUITests.swift; sourceTree = "<group>"; };
+		DE16D7512B2703E00052F7E2 /* FlashBuzziOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBuzziOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE16D72E2B2703DE0052F7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D73E2B2703E00052F7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D7482B2703E00052F7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE16D7282B2703DE0052F7E2 = {
+			isa = PBXGroup;
+			children = (
+				DE16D7332B2703DE0052F7E2 /* FlashBuzziOS */,
+				DE16D7442B2703E00052F7E2 /* FlashBuzziOSTests */,
+				DE16D74E2B2703E00052F7E2 /* FlashBuzziOSUITests */,
+				DE16D7322B2703DE0052F7E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE16D7322B2703DE0052F7E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D7312B2703DE0052F7E2 /* FlashBuzziOS.app */,
+				DE16D7412B2703E00052F7E2 /* FlashBuzziOSTests.xctest */,
+				DE16D74B2B2703E00052F7E2 /* FlashBuzziOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE16D7332B2703DE0052F7E2 /* FlashBuzziOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D7342B2703DE0052F7E2 /* FlashBuzziOSApp.swift */,
+				DE16D7362B2703DE0052F7E2 /* ContentView.swift */,
+				DE16D7382B2703E00052F7E2 /* Assets.xcassets */,
+				DE16D73A2B2703E00052F7E2 /* Preview Content */,
+			);
+			path = FlashBuzziOS;
+			sourceTree = "<group>";
+		};
+		DE16D73A2B2703E00052F7E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D73B2B2703E00052F7E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE16D7442B2703E00052F7E2 /* FlashBuzziOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D7452B2703E00052F7E2 /* FlashBuzziOSTests.swift */,
+			);
+			path = FlashBuzziOSTests;
+			sourceTree = "<group>";
+		};
+		DE16D74E2B2703E00052F7E2 /* FlashBuzziOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE16D74F2B2703E00052F7E2 /* FlashBuzziOSUITests.swift */,
+				DE16D7512B2703E00052F7E2 /* FlashBuzziOSUITestsLaunchTests.swift */,
+			);
+			path = FlashBuzziOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE16D7302B2703DE0052F7E2 /* FlashBuzziOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D7552B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOS" */;
+			buildPhases = (
+				DE16D72D2B2703DE0052F7E2 /* Sources */,
+				DE16D72E2B2703DE0052F7E2 /* Frameworks */,
+				DE16D72F2B2703DE0052F7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashBuzziOS;
+			productName = FlashBuzziOS;
+			productReference = DE16D7312B2703DE0052F7E2 /* FlashBuzziOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE16D7402B2703E00052F7E2 /* FlashBuzziOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D7582B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOSTests" */;
+			buildPhases = (
+				DE16D73D2B2703E00052F7E2 /* Sources */,
+				DE16D73E2B2703E00052F7E2 /* Frameworks */,
+				DE16D73F2B2703E00052F7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE16D7432B2703E00052F7E2 /* PBXTargetDependency */,
+			);
+			name = FlashBuzziOSTests;
+			productName = FlashBuzziOSTests;
+			productReference = DE16D7412B2703E00052F7E2 /* FlashBuzziOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE16D74A2B2703E00052F7E2 /* FlashBuzziOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE16D75B2B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOSUITests" */;
+			buildPhases = (
+				DE16D7472B2703E00052F7E2 /* Sources */,
+				DE16D7482B2703E00052F7E2 /* Frameworks */,
+				DE16D7492B2703E00052F7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE16D74D2B2703E00052F7E2 /* PBXTargetDependency */,
+			);
+			name = FlashBuzziOSUITests;
+			productName = FlashBuzziOSUITests;
+			productReference = DE16D74B2B2703E00052F7E2 /* FlashBuzziOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE16D7292B2703DE0052F7E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DE16D7302B2703DE0052F7E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DE16D7402B2703E00052F7E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DE16D7302B2703DE0052F7E2;
+					};
+					DE16D74A2B2703E00052F7E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DE16D7302B2703DE0052F7E2;
+					};
+				};
+			};
+			buildConfigurationList = DE16D72C2B2703DE0052F7E2 /* Build configuration list for PBXProject "FlashBuzziOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE16D7282B2703DE0052F7E2;
+			productRefGroup = DE16D7322B2703DE0052F7E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE16D7302B2703DE0052F7E2 /* FlashBuzziOS */,
+				DE16D7402B2703E00052F7E2 /* FlashBuzziOSTests */,
+				DE16D74A2B2703E00052F7E2 /* FlashBuzziOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE16D72F2B2703DE0052F7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D73C2B2703E00052F7E2 /* Preview Assets.xcassets in Resources */,
+				DE16D7392B2703E00052F7E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D73F2B2703E00052F7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D7492B2703E00052F7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE16D72D2B2703DE0052F7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D7372B2703DE0052F7E2 /* ContentView.swift in Sources */,
+				DE16D7352B2703DE0052F7E2 /* FlashBuzziOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D73D2B2703E00052F7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D7462B2703E00052F7E2 /* FlashBuzziOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE16D7472B2703E00052F7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D7522B2703E00052F7E2 /* FlashBuzziOSUITestsLaunchTests.swift in Sources */,
+				DE16D7502B2703E00052F7E2 /* FlashBuzziOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE16D7432B2703E00052F7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE16D7302B2703DE0052F7E2 /* FlashBuzziOS */;
+			targetProxy = DE16D7422B2703E00052F7E2 /* PBXContainerItemProxy */;
+		};
+		DE16D74D2B2703E00052F7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE16D7302B2703DE0052F7E2 /* FlashBuzziOS */;
+			targetProxy = DE16D74C2B2703E00052F7E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE16D7532B2703E00052F7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE16D7542B2703E00052F7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE16D7562B2703E00052F7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashBuzziOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE16D7572B2703E00052F7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashBuzziOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE16D7592B2703E00052F7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashBuzziOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlashBuzziOS";
+			};
+			name = Debug;
+		};
+		DE16D75A2B2703E00052F7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashBuzziOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlashBuzziOS";
+			};
+			name = Release;
+		};
+		DE16D75C2B2703E00052F7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlashBuzziOS;
+			};
+			name = Debug;
+		};
+		DE16D75D2B2703E00052F7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RJS2CHD8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ridhaaf.FlashBuzziOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlashBuzziOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE16D72C2B2703DE0052F7E2 /* Build configuration list for PBXProject "FlashBuzziOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D7532B2703E00052F7E2 /* Debug */,
+				DE16D7542B2703E00052F7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE16D7552B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D7562B2703E00052F7E2 /* Debug */,
+				DE16D7572B2703E00052F7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE16D7582B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D7592B2703E00052F7E2 /* Debug */,
+				DE16D75A2B2703E00052F7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE16D75B2B2703E00052F7E2 /* Build configuration list for PBXNativeTarget "FlashBuzziOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16D75C2B2703E00052F7E2 /* Debug */,
+				DE16D75D2B2703E00052F7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE16D7292B2703DE0052F7E2 /* Project object */;
+}
