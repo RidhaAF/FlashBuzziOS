@@ -11,7 +11,7 @@ import SwiftUI
 struct FlashBuzziOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewsView()
         }
     }
 }
